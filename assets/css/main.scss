@@ -1,9 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125.5%;
+    letter-spacing: 0.03em;
+    color: #FF3839;
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
 //navbar start
 .container {
     width: 1300px;
@@ -37,7 +60,8 @@ nav {
         }
 
     }
-    .mobile{
+
+    .mobile {
         color: #FFFFFF;
     }
 
@@ -50,9 +74,10 @@ nav {
         padding-top: 10px;
         padding-left: 25px;
         display: block;
+
         a {
             text-decoration: none;
-            font-family: 'Poppins';
+            font-family: 'Poppins', sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -62,4 +87,118 @@ nav {
         }
     }
 }
+
 //navbar end//
+//page1 start//
+.section1 {
+    background-color: rgb(32, 31, 31);
+    background-image: url("../img/page1Backround.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    .content1 {
+        width: 787px;
+        height: 381px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+
+            span {
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.03em;
+                color: #FF3839;
+            }
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 128.5%;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+        }
+
+        hr {
+            border: 2px solid #FF3839;
+            width: 563px;
+        }
+
+        .section1_btn {
+            display: flex;
+            gap: 20px;
+           .hire_us{
+                background: #FF3839;
+                border-radius: 5px;
+                text-decoration: none;
+                display: grid;
+                width: 181px;
+                height: 48px;
+                place-items: center;
+                margin-top: 40px;
+
+                span {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                   text-transform: capitalize;
+                  text-align: center;
+                    letter-spacing: 0.03em;
+                    color: #FFFFFF;
+
+                }
+            }
+            .view_portfolio{
+                background: #FFFFFF;
+                border-radius: 5px;
+                text-decoration: none;
+                display: grid;
+                width: 181px;
+                height: 48px;
+                place-items: center;
+                margin-top: 40px;
+                span{
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                   text-transform: capitalize;
+                  text-align: center;
+                    letter-spacing: 0.03em;
+                    color: black;
+
+                }
+            }
+
+
+        }
+    }
+}
+
+//page1 end//
