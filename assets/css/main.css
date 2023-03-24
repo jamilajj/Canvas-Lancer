@@ -21,9 +21,10 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
+  text-align: justify;
   letter-spacing: 0.03em;
   color: #FFFFFF;
+  text-transform: capitalize;
 }
 
 h1 {
@@ -32,6 +33,17 @@ h1 {
   font-weight: 700;
   font-size: 48px;
   line-height: 125.5%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -54,6 +66,7 @@ nav .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 }
 nav .menu ul li {
   display: inline;
@@ -197,6 +210,8 @@ nav .contact_us a {
 }
 .section2 .content2 {
   display: flex;
+  gap: 40px;
+  padding: 30px;
 }
 .section2 .content2 .text {
   display: grid;
@@ -242,4 +257,102 @@ nav .contact_us a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #FFFFFF;
+}
+
+.section3 {
+  background: #202020;
+}
+.section3 .content3 {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  display: flex;
+  gap: 40px;
+}
+.section3 .content3 .content3_text .text {
+  display: grid;
+}
+.section3 .content3 .content3_text .text .title {
+  display: flex;
+  align-items: center;
+}
+.section3 .content3 .content3_text .text .title hr {
+  border: 2px solid #ffffff;
+  width: 143px;
+  height: 0px;
+}
+.section3 .content3 .content3_text .text .title p {
+  color: white;
+  margin-bottom: 0%;
+  text-transform: capitalize;
+}
+.section3 .content3 .content3_text .text .title p span {
+  font-weight: 700;
+  font-size: 16px;
+}
+.section3 .content3 .content3_text .text h1 {
+  color: #ffffff;
+  width: 443px;
+  height: 120px;
+}
+.section3 .content3 .content3_text .text .hire_us {
+  background: #FF3839;
+  border-radius: 5px;
+  text-decoration: none;
+  display: grid;
+  width: 181px;
+  height: 48px;
+  place-items: center;
+  margin-top: 40px;
+}
+.section3 .content3 .content3_text .text .hire_us span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.section3 .content3 .content3_cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  transform: translate(0, -100px);
+}
+.section3 .content3 .content3_cards .card {
+  display: flex;
+  flex-direction: column;
+  width: 263px;
+  height: 168px;
+  top: 143px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.section3 .content3 .content3_cards .card .ellipse {
+  width: 82px;
+  height: 82px;
+  transform: translate(90px, -40px);
+}
+.section3 .content3 .content3_cards .card .img {
+  width: 45px;
+  height: 45px;
+  z-index: 2;
+  transform: translate(108px, -103px);
+}
+.section3 .content3 .content3_cards .card h5 {
+  text-align: center;
+  transform: translate(0, -75px);
+}
+.section3 .content3 .content3_cards .card p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #696969;
+  transform: translate(0, -65px);
 }/*# sourceMappingURL=main.css.map */

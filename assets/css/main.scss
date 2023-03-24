@@ -22,9 +22,10 @@ p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
+    text-align: justify;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    text-transform: capitalize;
 }
 
 @mixin btn {
@@ -36,7 +37,7 @@ p {
         width: 181px;
         height: 48px;
         place-items: center;
-        margin-top: 40px;
+       
 
         span {
             font-family: 'Poppins', sans-serif;
@@ -64,6 +65,16 @@ h1 {
     color: #000000;
 }
 
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
 
 header.nav.container {
     width: 1300px;
@@ -83,8 +94,10 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 20px;
 
         ul {
+
             li {
                 display: inline;
                 margin-left: 15px;
@@ -251,6 +264,8 @@ nav {
 
     .content2 {
         display: flex;
+        gap: 40px;
+        padding: 30px;
 
         .text {
             display: grid;
@@ -278,6 +293,7 @@ nav {
             }
 
             p {
+
                 color: #696969;
             }
 
@@ -290,4 +306,105 @@ nav {
 
     }
 
+}
+
+.section3 {
+    background: #202020;
+
+    .content3 {
+        padding-top: 60px;
+        padding-bottom: 10px;
+        display: flex;
+        gap: 40px;
+
+        .content3_text {
+            .text {
+                display: grid;
+
+                .title {
+                    display: flex;
+                    align-items: center;
+
+                    hr {
+                        border: 2px solid #ffffff;
+                        width: 143px;
+                        height: 0px;
+                    }
+
+                    p {
+                        color: white;
+                        margin-bottom: 0%;
+                        text-transform: capitalize;
+
+                        span {
+                            font-weight: 700;
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                h1 {
+                    color: #ffffff;
+                    width: 443px;
+                    height: 120px;
+                }
+
+               
+
+                @include btn{
+                    margin-top: 20px;
+                }
+            }
+        }
+
+
+        .content3_cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            transform: translate(0, -100px);
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                width: 263px;
+                height: 168px;
+                top: 143px;
+                background: #FFFFFF;
+                border-radius: 5px;
+                
+
+                .ellipse {
+                    width: 82px;
+                    height: 82px;
+                    transform: translate(90px, -40px);
+                }
+
+                .img {
+                    width: 45px;
+                    height: 45px;
+                    z-index: 2;
+                    transform: translate(108px, -103px);
+                }
+
+                h5 {
+                    text-align: center;
+                    transform: translate(0, -75px);
+                }
+
+                p {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 155%;
+                    text-align: center;
+                    letter-spacing: 0.03em;
+                    color: #696969;
+                    transform: translate(0, -65px);
+                }
+
+            }
+        }
+    }
 }
