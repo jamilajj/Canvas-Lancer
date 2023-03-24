@@ -26,7 +26,17 @@ p {
   color: #FFFFFF;
 }
 
-.container {
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125.5%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+header.nav.container {
   width: 1300px;
   margin: auto;
 }
@@ -175,4 +185,61 @@ nav .contact_us a {
   text-align: center;
   letter-spacing: 0.03em;
   color: black;
+}
+
+.container {
+  width: 1200px;
+  height: auto;
+}
+
+.section2 {
+  display: flex;
+}
+.section2 .content2 {
+  display: flex;
+}
+.section2 .content2 .text {
+  display: grid;
+}
+.section2 .content2 .text .title {
+  display: flex;
+  align-items: center;
+}
+.section2 .content2 .text .title hr {
+  border: 2px solid #b4b2b2;
+  width: 143px;
+  height: 0px;
+}
+.section2 .content2 .text .title p {
+  color: #000000;
+  margin-bottom: 0%;
+  text-transform: capitalize;
+}
+.section2 .content2 .text .title p span {
+  font-weight: 700;
+  font-size: 16px;
+}
+.section2 .content2 .text p {
+  color: #696969;
+}
+.section2 .content2 .text .hire_us {
+  background: #FF3839;
+  border-radius: 5px;
+  text-decoration: none;
+  display: grid;
+  width: 181px;
+  height: 48px;
+  place-items: center;
+  margin-top: 40px;
+}
+.section2 .content2 .text .hire_us span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

@@ -27,8 +27,45 @@ p {
     color: #FFFFFF;
 }
 
-//navbar start
-.container {
+@mixin btn {
+    .hire_us {
+        background: #FF3839;
+        border-radius: 5px;
+        text-decoration: none;
+        display: grid;
+        width: 181px;
+        height: 48px;
+        place-items: center;
+        margin-top: 40px;
+
+        span {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-transform: capitalize;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+
+        }
+    }
+
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125.5%;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+
+header.nav.container {
     width: 1300px;
     margin: auto;
 }
@@ -88,8 +125,7 @@ nav {
     }
 }
 
-//navbar end//
-//page1 start//
+
 .section1 {
     background-color: rgb(32, 31, 31);
     background-image: url("../img/page1Backround.png");
@@ -150,7 +186,8 @@ nav {
         .section1_btn {
             display: flex;
             gap: 20px;
-           .hire_us{
+
+            .hire_us {
                 background: #FF3839;
                 border-radius: 5px;
                 text-decoration: none;
@@ -166,14 +203,15 @@ nav {
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 24px;
-                   text-transform: capitalize;
-                  text-align: center;
+                    text-transform: capitalize;
+                    text-align: center;
                     letter-spacing: 0.03em;
                     color: #FFFFFF;
 
                 }
             }
-            .view_portfolio{
+
+            .view_portfolio {
                 background: #FFFFFF;
                 border-radius: 5px;
                 text-decoration: none;
@@ -182,14 +220,15 @@ nav {
                 height: 48px;
                 place-items: center;
                 margin-top: 40px;
-                span{
+
+                span {
                     font-family: 'Poppins', sans-serif;
                     font-style: normal;
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 24px;
-                   text-transform: capitalize;
-                  text-align: center;
+                    text-transform: capitalize;
+                    text-align: center;
                     letter-spacing: 0.03em;
                     color: black;
 
@@ -201,4 +240,54 @@ nav {
     }
 }
 
-//page1 end//
+
+.container {
+    width: 1200px;
+    height: auto;
+}
+
+.section2 {
+    display: flex;
+
+    .content2 {
+        display: flex;
+
+        .text {
+            display: grid;
+
+            .title {
+                display: flex;
+                align-items: center;
+
+                hr {
+                    border: 2px solid #b4b2b2;
+                    width: 143px;
+                    height: 0px;
+                }
+
+                p {
+                    color: #000000;
+                    margin-bottom: 0%;
+                    text-transform: capitalize;
+
+                    span {
+                        font-weight: 700;
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            p {
+                color: #696969;
+            }
+
+            @include btn();
+
+
+        }
+
+
+
+    }
+
+}
