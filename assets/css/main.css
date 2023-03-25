@@ -6,7 +6,7 @@
 }
 
 span {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -16,7 +16,7 @@ span {
 }
 
 p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -245,7 +245,6 @@ nav .contact_us a {
   width: 181px;
   height: 48px;
   place-items: center;
-  margin-top: 40px;
 }
 .section2 .content2 .text .hire_us span {
   font-family: "Poppins", sans-serif;
@@ -264,7 +263,7 @@ nav .contact_us a {
 }
 .section3 .content3 {
   padding-top: 60px;
-  padding-bottom: 10px;
+  padding-bottom: 90px;
   display: flex;
   gap: 40px;
 }
@@ -302,7 +301,6 @@ nav .contact_us a {
   width: 181px;
   height: 48px;
   place-items: center;
-  margin-top: 40px;
 }
 .section3 .content3 .content3_text .text .hire_us span {
   font-family: "Poppins", sans-serif;
@@ -355,4 +353,73 @@ nav .contact_us a {
   letter-spacing: 0.03em;
   color: #696969;
   transform: translate(0, -65px);
+}
+
+.section4 .content4 {
+  display: grid;
+  justify-items: center;
+}
+.section4 .content4 .text {
+  width: 457px;
+  height: 170px;
+  display: grid;
+}
+.section4 .content4 .text .title {
+  display: flex;
+  align-items: center;
+}
+.section4 .content4 .text .title hr {
+  border: 2px solid #b9b9b9;
+  width: 163px;
+  height: 0px;
+}
+.section4 .content4 .text .title p {
+  margin-bottom: 0%;
+  color: #696969;
+}
+.section4 .content4 .text h1 {
+  color: #000000;
+  text-align: center;
+}
+.section4 .content4 .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.section4 .content4 .menu ul li {
+  display: inline;
+  margin-left: 15px;
+}
+.section4 .content4 .menu ul li :hover {
+  background-color: #FF3839;
+}
+.section4 .content4 .menu ul li a {
+  padding: 15px;
+  background: #F2F2F2;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.section4 .content4 .menu ul li a :hover {
+  color: #FFFFFF;
+}
+.section4 .content4 .menu ul li a span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.section4 .content4 .img {
+  display: flex;
+  justify-content: center;
+}
+.section4 .content4 .img :nth-child(1),
+.section4 .content4 .img :nth-child(3) {
+  width: 374px;
+  height: 439px;
+}
+.section4 .content4 .img :nth-child(2) {
+  width: 374px;
+  height: 513px;
 }/*# sourceMappingURL=main.css.map */
