@@ -710,3 +710,117 @@ nav {
         }
     }
 }
+
+
+
+.section7 {
+    background: #F1F1F1;
+
+    .content7 {
+        display: flex;
+        justify-content: space-between;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            width: 550px;
+            justify-content: space-between;
+
+            .title {
+                display: flex;
+                align-items: center;
+
+                hr {
+                    width: 143px;
+                    height: 0px;
+                    border: 2px solid #4b4b4b
+                }
+
+                p {
+                    margin-bottom: 0%;
+
+                    span {
+                        font-size: 16px;
+                        line-height: 155%;
+                    }
+                }
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 155%;
+                color: #696969;
+            }
+
+            input {
+                background: #FFFFFF;
+                border: 1px solid #CACACA;
+                border-radius: 5px;
+                box-sizing: border-box;
+                height: 60px;
+                width: 533px;
+                margin: 10px 0;
+
+                &::placeholder {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 155%;
+                    text-align: justify;
+                    letter-spacing: 0.03em;
+                    color: #000000;
+                    padding-left: 15px;
+                }
+            }
+
+            textarea {
+                background: #FFFFFF;
+                border: 1px solid #CACACA;
+                border-radius: 5px;
+                margin: 10px 0;
+
+                &::placeholder {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 155%;
+                    text-align: justify;
+                    letter-spacing: 0.03em;
+                    color: #000000;
+                    padding: 15px 0 0 15px;
+                }
+            }
+
+            button {
+                background: #FF3839;
+                border-radius: 5px;
+                height: 48px;
+                width: 181px;
+                border: none;
+                margin: 10px 0;
+
+                span {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.03em;
+                    color: #FFFFFF;
+                }
+            }
+
+
+
+        }
+
+        .img {
+            img {
+                width: 603px;
+                height: 829px;
+                padding-left: 20px;
+            }
+        }
+    }
+}
