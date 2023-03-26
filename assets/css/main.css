@@ -79,23 +79,23 @@ nav .menu ul li a {
 nav .mobile {
   color: #FFFFFF;
 }
-nav .contact_us {
-  width: 128px;
-  height: 44px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+nav .hire_us {
   background: #FF3839;
   border-radius: 5px;
-  padding-top: 10px;
-  padding-left: 25px;
-  display: block;
-}
-nav .contact_us a {
   text-decoration: none;
+  display: grid;
+  width: 181px;
+  height: 48px;
+  place-items: center;
+}
+nav .hire_us span {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  text-transform: capitalize;
+  text-align: center;
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
@@ -597,6 +597,7 @@ nav .contact_us a {
 .section7 .content7 {
   display: flex;
   justify-content: space-between;
+  padding: 50px 0;
 }
 .section7 .content7 .text {
   display: flex;
@@ -704,4 +705,147 @@ nav .contact_us a {
   width: 603px;
   height: 829px;
   padding-left: 20px;
+}
+
+footer {
+  background: #202020;
+}
+footer .content_footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+footer .content_footer .foot1 {
+  display: flex;
+  flex-direction: column;
+  width: 345px;
+}
+footer .content_footer .foot1 img {
+  width: 227px;
+  height: 53px;
+  margin-bottom: 20px;
+}
+footer .content_footer .foot1 p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03;
+  color: #F8F8F8;
+}
+footer .content_footer .foot1 .icons {
+  display: flex;
+  gap: 20px;
+}
+footer .content_footer .foot1 .icons a {
+  width: 36px;
+  height: 36.75px;
+  border-radius: 50%;
+  background-color: #FF3839;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .content_footer .foot1 .icons a i {
+  color: #FFFFFF;
+}
+footer .content_footer .foot2 {
+  display: flex;
+  flex-direction: column;
+}
+footer .content_footer .foot2 h5 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.2817px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+footer .content_footer .foot2 p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18.0282px;
+  line-height: 41px;
+  color: #FFFFFF;
+}
+footer .content_footer .foot3 {
+  display: flex;
+  flex-direction: column;
+}
+footer .content_footer .foot3 h5 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.2817px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+footer .content_footer .foot3 p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18.0282px;
+  line-height: 41px;
+  color: #FFFFFF;
+}
+footer .content_footer .foot4 {
+  display: flex;
+  flex-direction: column;
+}
+footer .content_footer .foot4 h5 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.2817px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+footer .content_footer .foot4 a {
+  text-decoration: none;
+}
+footer .content_footer .foot4 a i {
+  display: flex;
+  align-items: center;
+  color: #FF3839;
+  width: 20px;
+  height: 17px;
+  padding: 30px 0;
+}
+footer .content_footer .foot4 a i span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18.0282px;
+  line-height: 41px;
+  color: #FFFFFF;
+  padding: 0 20px;
+}
+footer .content_footer .content_footer_end {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .content_footer .content_footer_end img {
+  width: 1200px;
+  padding: 30px 0;
+}
+footer .content_footer .content_footer_end p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-right: 17em;
+}
+footer .content_footer .content_footer_end .links a {
+  color: #FFFFFF;
+  padding: 0 20px;
 }/*# sourceMappingURL=main.css.map */
