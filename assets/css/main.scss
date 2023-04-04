@@ -97,6 +97,7 @@ nav {
         padding: 20px;
 
         ul {
+            margin-bottom: 0%;
 
             li {
                 display: inline;
@@ -116,7 +117,7 @@ nav {
     }
 
     @include btn();
-      
+
 }
 
 
@@ -953,10 +954,12 @@ footer {
         .content_footer_end {
             display: flex;
             flex-wrap: wrap;
-            img{
+
+            img {
                 width: 1200px;
                 padding: 30px 0;
             }
+
             p {
                 font-family: 'Poppins', sans-serif;
                 font-style: normal;
@@ -966,19 +969,19 @@ footer {
                 color: #FFFFFF;
                 margin-right: 17em;
             }
-    
+
             .links {
-    
+
                 a {
                     color: #FFFFFF;
                     padding: 0 20px;
                 }
-    
+
             }
 
 
         }
 
-       
+
     }
 }
