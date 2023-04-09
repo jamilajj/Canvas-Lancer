@@ -79,15 +79,12 @@ nav .menu ul li a {
   text-decoration: none;
   color: white;
 }
-nav .mobile {
-  color: #FFFFFF;
-}
 nav .hire_us {
   background: #FF3839;
   border-radius: 5px;
   text-decoration: none;
   display: grid;
-  width: 181px;
+  width: 150px;
   height: 48px;
   place-items: center;
 }
@@ -548,7 +545,7 @@ nav .hire_us span {
 }
 .section6 .content6 #accordion {
   margin: 100px auto;
-  width: 972px;
+  width: auto;
 }
 .section6 .content6 #accordion li {
   width: 100%;

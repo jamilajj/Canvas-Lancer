@@ -1,0 +1,109 @@
+@media (max-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+  header nav ul {
+    padding-right: 30px;
+  }
+  .section2 .content2 {
+    flex-direction: column;
+  }
+  .section3 .content3 {
+    flex-direction: column;
+  }
+  .section4 .content4 .img :nth-child(1),
+  .section4 .content4 .img :nth-child(3) {
+    width: 304px;
+    height: 369px;
+  }
+  .section4 .content4 .img :nth-child(2) {
+    width: 304px;
+    height: 443px;
+  }
+  .section7 .content7 .img img {
+    width: 443px;
+    height: 603px;
+    margin-top: 58px;
+  }
+  footer .content_footer .foot1 {
+    width: 264px;
+  }
+  footer .content_footer .foot2 h5 {
+    font-size: 17.2817px;
+  }
+  footer .content_footer .foot2 p {
+    font-size: 14.0282px;
+    line-height: 20px;
+  }
+  footer .content_footer .foot3 h5 {
+    font-size: 17.2817px;
+  }
+  footer .content_footer .foot3 p {
+    font-size: 14.0282px;
+    line-height: 20px;
+  }
+  footer .content_footer .foot4 h5 {
+    font-size: 17.2817px;
+  }
+  footer .content_footer .foot4 a i span {
+    font-size: 14.0282px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .menu ul {
+    display: none;
+  }
+  .menu .mobile {
+    color: #FFFFFF;
+    display: block;
+  }
+  .menu.button {
+    width: 80px;
+    height: 20px;
+  }
+  .section2 .content2 {
+    align-items: center;
+  }
+  .section2 .content2 .text {
+    justify-items: center;
+  }
+  .section4 .content4 .img :nth-child(1),
+  .section4 .content4 .img :nth-child(3) {
+    width: 244px;
+    height: 309px;
+  }
+  .section4 .content4 .img :nth-child(2) {
+    width: 244px;
+    height: 383px;
+  }
+}
+.section5 .content5 .content5_cards {
+  flex-direction: column;
+  align-items: center;
+}
+.section5 .content5 .header .pages_link hr {
+  width: 75px;
+}
+.section5 .content5 .header .text h1 {
+  font-size: 32px;
+}
+.section5 .content5 .header .text h1 span {
+  font-size: 32px;
+}
+
+.section6 .content6 #accordion {
+  margin: 100px 0;
+  width: 700px;
+}
+.section6 .content6 #accordion li .content {
+  width: 600px;
+}
+
+.section7 .content7 {
+  flex-direction: column-reverse;
+}
+.section7 .content7 .img img {
+  width: 441px;
+  height: 520px;
+}/*# sourceMappingURL=responsive.css.map */

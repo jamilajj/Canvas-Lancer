@@ -112,11 +112,31 @@ nav {
 
     }
 
-    .mobile {
-        color: #FFFFFF;
+
+    .hire_us {
+        background: #FF3839;
+        border-radius: 5px;
+        text-decoration: none;
+        display: grid;
+        width: 150px;
+        height: 48px;
+        place-items: center;
+
+
+        span {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-transform: capitalize;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+
+        }
     }
 
-    @include btn();
 
 }
 
@@ -638,7 +658,7 @@ nav {
 
         #accordion {
             margin: 100px auto;
-            width: 972px;
+            width: auto;
 
             li {
                 width: 100%;
